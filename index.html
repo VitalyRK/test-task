@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/planet-earth.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Панели из сотового картона</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container header__container">
+      <a class="header__logo" href="https://example.com">
+        <img class="header__logo__image" src="eco.png" alt="logo">
+        <h3 class="header__logo__title">BestLogo</h3>
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item">
+            <a href="https://github.com/VitalyRK" target="_blank">Главная</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="https://github.com/VitalyRK" target="_blank">Каталог</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="https://github.com/VitalyRK" target="_blank">Акции</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="https://github.com/VitalyRK" target="_blank">О компании</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="https://github.com/VitalyRK" target="_blank">Вакансии</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__contacts">
+        <div class="header__contacts__item">
+          <img src="a1.svg" alt="A1">
+          <a href="tel:+375291151514">+375 29 115 15 14</a>
+          <span>|</span>
+        </div>
+        <div class="header__contacts__item">
+          <a class="header__contacts__item__link" href="viber://chat?number=%2B375291151514">
+            <img src="viber_icon.png" alt="Viber">
+            <span>Viber</span>
+          </a>
+          <span>|</span>
+        </div>
+        <div class="header__contacts__item">
+          <a class="header__contacts__item__link" href="https://wa.me/375291151514">
+            <img src="whatsapp.svg" alt="WhatsApp">
+            <span>WhatsApp</span>
+          </a>
+          <span>|</span>
+        </div>
+        <div class="header__contacts__item">
+          <a class="header__contacts__item__link" href="mailto:shishovip@yandex.ru">Написать на email</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main id="main" class="main">
+    <section class="main__about">
+      <div class="container">
+        <h1 class="main__about__title">Производство панелей из сотового картона</h1>
+        <p class="main__about__text">
+          Сотовый картон – прочный материал, который востребован в промышленной деятельности для производства коробок и
+          ящиков, поддонов, ложементов, фиксации, транспортировки и хранения продукции. Материал используют как тамбурат
+          в мебельном производстве и в качестве заполнителя межкомнатных дверей. Низкая стоимость, малый вес и высокая
+          прочность сотового картона позволяют сократить расходы и уменьшить вес готовых изделий при большем объеме.
+        </p>
+        <p class="main__about__text">
+          В рекламной индустрии сотовый картон начал набирать популярность относительно недавно. При производстве
+          рекламной продукции используется мелованный сотовый картон, который имеет гладкую белую поверхность с
+          возможностью прямого нанесения печати. Из него изготавливают рекламные торговые стойки, вывески, фотозоны и
+          элементы мебели.
+        </p>
+      </div>
+    </section>
+    <section class="main__price-section">
+      <div class="container main__price-section__container">
+        <img class="main__price-section__img" src="carton.jpg" alt="Картон">
+        <div class="main__price-section__box">
+          <h3 class="main__price-section__box__title">Сотовые панели</h3>
+          <p class="main__price-section__box__text main__about__text">
+            Сотовые панели представляют собой трехслойные изделия, состоящие из одного внутреннего слоя - сотового
+            картонного заполнителя с шестигранной формой ячеек и двух плоских наружных слоев картона, приклеенных к
+            заполнителю с обеих сторон клеем ПВА. Толщина сотовых плит, выпускаемых предприятием варьируется от 6мм до
+            100мм. Они могут быть изготовлены из мелованного, макулатурного или крафт-картона.
+          </p>
+          <div class="main__price-section__box__price">
+            Цена 9.30 руб за м²
+          </div>
+        </div>
+      </div>
+      <div class="container main__price-section__box__action">
+        <button class="main__price-section__box__action__button">Сделать заказ</button>
+        <button class="main__price-section__box__action__button">Скачать прайс</button>
+      </div>
+      <div class="container main__request-call">
+        <h3 class="main__request-call__title">Хотите получить консультацию?</h3>
+        <p class="main__request-call__text">Оставьте заявку и наш менеджер свяжется с вами.</p>
+        <input class="main__request-call__input" type="text" name="name" placeholder="Введите ваше имя" required>
+        <input class="main__request-call__input" type="tel" name="number" placeholder="Номер телефона"
+          pattern="\s{0,}\+{1,1}375\s{0,}\({0,1}(([2]{1}([5]{1}|[9]{1}))|([3]{1}[3]{1})|([4]{1}[4]{1}))\)\s{0,}[0-9]{3,3}\s{0,}[0-9]{4,4}"
+          required />
+        <button class="main__price-section__box__action__button">
+          Заказать звонок
+        </button>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
